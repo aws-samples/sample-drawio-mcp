@@ -1,0 +1,35 @@
+{
+  "name": "drawio-mcp-workspace",
+  "version": "1.0.0",
+  "description": "JavaScript SDK and MCP server for creating and manipulating draw.io diagrams programmatically.",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "jsapi",
+    "mcp"
+  ],
+  "overrides": {
+    "hono": ">=4.11.7",
+    "esbuild": ">=0.25.0"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "prettier --write . && eslint . --ext .js,.ts --fix",
+    "lint:ci": "prettier --check . && eslint . --ext .js,.ts",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm test --workspaces --if-present"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT-0",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.0"
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "displayName": "Basic Shapes",
+  "description": "Basic shapes for general-purpose diagrams",
+  "version": "1.0",
+  "categories": {
+    "rectangles": {
+      "name": "Rectangles",
+      "description": "Rectangle shapes",
+      "shapes": [
+        {
+          "id": "rectangle",
+          "name": "Rectangle",
+          "description": "Basic rectangle",
+          "style": "rounded=0;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 60 }
+        },
+        {
+          "id": "rounded_rectangle",
+          "name": "Rounded Rectangle",
+          "description": "Rectangle with rounded corners",
+          "style": "rounded=1;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 60 }
+        },
+        {
+          "id": "process",
+          "name": "Process",
+          "description": "Process shape",
+          "style": "rounded=0;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 60 }
+        },
+        {
+          "id": "card",
+          "name": "Card",
+          "description": "Card shape with shadow",
+          "style": "rounded=1;whiteSpace=wrap;html=1;shadow=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        }
+      ]
+    },
+    "circles": {
+      "name": "Circles & Ellipses",
+      "description": "Circular and elliptical shapes",
+      "shapes": [
+        {
+          "id": "ellipse",
+          "name": "Ellipse",
+          "description": "Ellipse shape",
+          "style": "ellipse;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        },
+        {
+          "id": "circle",
+          "name": "Circle",
+          "description": "Circle shape",
+          "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;",
+          "defaultSize": { "width": 80, "height": 80 }
+        },
+        {
+          "id": "start_end",
+          "name": "Start/End",
+          "description": "Flowchart start/end (terminal)",
+          "style": "ellipse;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 60 }
+        }
+      ]
+    },
+    "triangles": {
+      "name": "Triangles",
+      "description": "Triangle shapes",
+      "shapes": [
+        {
+          "id": "triangle",
+          "name": "Triangle",
+          "description": "Triangle shape",
+          "style": "triangle;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 60, "height": 80 }
+        },
+        {
+          "id": "triangle_down",
+          "name": "Triangle Down",
+          "description": "Inverted triangle",
+          "style": "triangle;whiteSpace=wrap;html=1;rotation=-180;",
+          "defaultSize": { "width": 60, "height": 80 }
+        }
+      ]
+    },
+    "diamonds": {
+      "name": "Diamonds",
+      "description": "Diamond shapes",
+      "shapes": [
+        {
+          "id": "diamond",
+          "name": "Diamond",
+          "description": "Diamond shape (decision)",
+          "style": "rhombus;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 80, "height": 80 }
+        },
+        {
+          "id": "decision",
+          "name": "Decision",
+          "description": "Flowchart decision",
+          "style": "rhombus;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        }
+      ]
+    },
+    "parallelograms": {
+      "name": "Parallelograms",
+      "description": "Parallelogram shapes",
+      "shapes": [
+        {
+          "id": "parallelogram",
+          "name": "Parallelogram",
+          "description": "Parallelogram (I/O)",
+          "style": "shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;",
+          "defaultSize": { "width": 120, "height": 60 }
+        },
+        {
+          "id": "input_output",
+          "name": "Input/Output",
+          "description": "Flowchart I/O",
+          "style": "shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;",
+          "defaultSize": { "width": 120, "height": 60 }
+        }
+      ]
+    },
+    "cylinders": {
+      "name": "Cylinders",
+      "description": "Cylinder shapes",
+      "shapes": [
+        {
+          "id": "cylinder",
+          "name": "Cylinder",
+          "description": "Cylinder (database)",
+          "style": "shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;",
+          "defaultSize": { "width": 60, "height": 80 }
+        },
+        {
+          "id": "database",
+          "name": "Database",
+          "description": "Database cylinder",
+          "style": "shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;",
+          "defaultSize": { "width": 60, "height": 80 }
+        }
+      ]
+    },
+    "hexagons": {
+      "name": "Hexagons",
+      "description": "Hexagonal shapes",
+      "shapes": [
+        {
+          "id": "hexagon",
+          "name": "Hexagon",
+          "description": "Hexagon shape",
+          "style": "shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        },
+        {
+          "id": "preparation",
+          "name": "Preparation",
+          "description": "Flowchart preparation",
+          "style": "shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        }
+      ]
+    },
+    "arrows": {
+      "name": "Arrows",
+      "description": "Arrow shapes",
+      "shapes": [
+        {
+          "id": "arrow_right",
+          "name": "Arrow Right",
+          "description": "Right arrow",
+          "style": "shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;",
+          "defaultSize": { "width": 100, "height": 60 }
+        },
+        {
+          "id": "arrow_left",
+          "name": "Arrow Left",
+          "description": "Left arrow",
+          "style": "shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;direction=west;",
+          "defaultSize": { "width": 100, "height": 60 }
+        },
+        {
+          "id": "arrow_up",
+          "name": "Arrow Up",
+          "description": "Up arrow",
+          "style": "shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;direction=north;",
+          "defaultSize": { "width": 60, "height": 100 }
+        },
+        {
+          "id": "arrow_down",
+          "name": "Arrow Down",
+          "description": "Down arrow",
+          "style": "shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;direction=south;",
+          "defaultSize": { "width": 60, "height": 100 }
+        },
+        {
+          "id": "double_arrow",
+          "name": "Double Arrow",
+          "description": "Bidirectional arrow",
+          "style": "shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;",
+          "defaultSize": { "width": 100, "height": 60 }
+        }
+      ]
+    },
+    "callouts": {
+      "name": "Callouts",
+      "description": "Callout and note shapes",
+      "shapes": [
+        {
+          "id": "callout",
+          "name": "Callout",
+          "description": "Speech callout",
+          "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;",
+          "defaultSize": { "width": 120, "height": 80 }
+        },
+        {
+          "id": "note",
+          "name": "Note",
+          "description": "Note shape",
+          "style": "shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;",
+          "defaultSize": { "width": 80, "height": 100 }
+        },
+        {
+          "id": "cloud",
+          "name": "Cloud",
+          "description": "Cloud shape",
+          "style": "ellipse;shape=cloud;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        }
+      ]
+    },
+    "documents": {
+      "name": "Documents",
+      "description": "Document shapes",
+      "shapes": [
+        {
+          "id": "document",
+          "name": "Document",
+          "description": "Document shape",
+          "style": "shape=document;whiteSpace=wrap;html=1;boundedLbl=1;",
+          "defaultSize": { "width": 120, "height": 80 }
+        },
+        {
+          "id": "manual_input",
+          "name": "Manual Input",
+          "description": "Manual input shape",
+          "style": "shape=manualInput;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 80, "height": 80 }
+        },
+        {
+          "id": "internal_storage",
+          "name": "Internal Storage",
+          "description": "Internal storage shape",
+          "style": "shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;",
+          "defaultSize": { "width": 80, "height": 80 }
+        }
+      ]
+    },
+    "containers": {
+      "name": "Containers",
+      "description": "Container and group shapes",
+      "shapes": [
+        {
+          "id": "container",
+          "name": "Container",
+          "description": "Basic container",
+          "style": "swimlane;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 200, "height": 200 }
+        },
+        {
+          "id": "group",
+          "name": "Group",
+          "description": "Transparent group",
+          "style": "rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;dashed=1;",
+          "defaultSize": { "width": 200, "height": 150 }
+        },
+        {
+          "id": "frame",
+          "name": "Frame",
+          "description": "Frame container",
+          "style": "shape=frame;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 200, "height": 150 }
+        }
+      ]
+    },
+    "connectors": {
+      "name": "Connectors",
+      "description": "Connector and line shapes",
+      "shapes": [
+        {
+          "id": "connector",
+          "name": "Connector",
+          "description": "Simple connector",
+          "style": "endArrow=classic;html=1;rounded=0;",
+          "defaultSize": { "width": 50, "height": 0 }
+        },
+        {
+          "id": "connector_bidirectional",
+          "name": "Bidirectional Connector",
+          "description": "Bidirectional connector",
+          "style": "endArrow=classic;startArrow=classic;html=1;rounded=0;",
+          "defaultSize": { "width": 50, "height": 0 }
+        },
+        {
+          "id": "connector_dashed",
+          "name": "Dashed Connector",
+          "description": "Dashed connector",
+          "style": "endArrow=classic;html=1;rounded=0;dashed=1;",
+          "defaultSize": { "width": 50, "height": 0 }
+        },
+        {
+          "id": "line",
+          "name": "Line",
+          "description": "Simple line (no arrows)",
+          "style": "endArrow=none;html=1;rounded=0;",
+          "defaultSize": { "width": 50, "height": 0 }
+        }
+      ]
+    },
+    "symbols": {
+      "name": "Symbols",
+      "description": "Common symbols",
+      "shapes": [
+        {
+          "id": "plus",
+          "name": "Plus",
+          "description": "Plus symbol",
+          "style": "shape=plus;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 40, "height": 40 }
+        },
+        {
+          "id": "cross",
+          "name": "Cross",
+          "description": "Cross symbol",
+          "style": "shape=cross;whiteSpace=wrap;html=1;",
+          "defaultSize": { "width": 40, "height": 40 }
+        },
+        {
+          "id": "actor",
+          "name": "Actor",
+          "description": "UML Actor (stick figure)",
+          "style": "shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;",
+          "defaultSize": { "width": 30, "height": 60 }
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "description": "Image placeholder",
+          "style": "shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;",
+          "defaultSize": { "width": 80, "height": 80 }
+        }
+      ]
+    },
+    "text": {
+      "name": "Text",
+      "description": "Text elements",
+      "shapes": [
+        {
+          "id": "text",
+          "name": "Text",
+          "description": "Text label",
+          "style": "text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;",
+          "defaultSize": { "width": 100, "height": 30 }
+        },
+        {
+          "id": "text_left",
+          "name": "Text Left",
+          "description": "Left-aligned text",
+          "style": "text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;",
+          "defaultSize": { "width": 100, "height": 30 }
+        },
+        {
+          "id": "text_right",
+          "name": "Text Right",
+          "description": "Right-aligned text",
+          "style": "text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;",
+          "defaultSize": { "width": 100, "height": 30 }
+        },
+        {
+          "id": "label",
+          "name": "Label",
+          "description": "Label with background",
+          "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;",
+          "defaultSize": { "width": 80, "height": 30 }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+nav:
+  - MCP Server:
+      - README.md
+      - mcp/*
+  - JSAPI: jsapi/
+  - Icons: icons/
+  - Contributing: contributing/
+  - "*"

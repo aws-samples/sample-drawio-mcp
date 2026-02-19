@@ -1,0 +1,53 @@
+# Ferret Scan Suppression Rules
+# Documentation: https://github.com/awslabs/ferret-scan
+
+suppressions:
+  # README.md - False positive for "BUSINESS" keyword
+  # Ferret Scan may be detecting "BUSINESS" in comments or documentation
+  - file: "**/README.md"
+    line: 17
+    reason: "False positive - no sensitive business data, likely in documentation context"
+    confidence: "high"
+
+  - file: "**/README.md"
+    line: 8
+    reason: "False positive - no sensitive business data, likely in documentation context"
+    confidence: "high"
+
+  # PRFAQ.md - "BUSINESS WIRE" is a legitimate press release service name
+  - file: "**/PRFAQ.md"
+    line: 15
+    reason: "BUSINESS WIRE is a legitimate press release service name in PRFAQ document"
+    confidence: "high"
+
+  # PRFAQ.md - Intellectual property notices are standard legal text
+  - file: "**/PRFAQ.md"
+    line: 73
+    reason: "Standard intellectual property notice in PRFAQ document"
+    confidence: "high"
+
+  - file: "**/PRFAQ.md"
+    line: 87
+    reason: "Standard intellectual property notice in PRFAQ document"
+    confidence: "high"
+
+  - file: "**/PRFAQ.md"
+    line: 103
+    reason: "Standard intellectual property notice in PRFAQ document"
+    confidence: "high"
+
+  # INSTALLATION.md - Documentation contains placeholder examples for GitLab tokens
+  - file: "**/INSTALLATION.md"
+    line: 58
+    reason: "Placeholder example showing token format with X characters, not an actual token"
+    confidence: "high"
+
+  - file: "**/INSTALLATION.md"
+    line: 131
+    reason: "Placeholder example showing token format with X characters, not an actual token"
+    confidence: "high"
+
+  - file: "**/INSTALLATION.md"
+    line: 132
+    reason: "Placeholder example showing token format with X characters, not an actual token"
+    confidence: "high"

@@ -1,0 +1,14 @@
+# Documentation Dependencies
+
+# Core MkDocs
+mkdocs>=1.5.0
+
+# Navigation
+mkdocs-awesome-nav>=2.0.0
+mkdocs-material>=9.0.0
+
+# Diagrams
+mkdocs-mermaid2-plugin>=1.0.0
+
+# Markdown extensions
+pymdown-extensions>=10.0

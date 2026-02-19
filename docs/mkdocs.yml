@@ -1,0 +1,79 @@
+site_name: Draw.io MCP Server
+site_description: Draw.io MCP/JSPAI Documentation
+site_dir: site
+site_url: https://github.com/aws-samples/sample-drawio-mcp
+docs_dir: ./docs
+dev_addr: 127.0.0.1:8000
+
+repo_url: https://github.com/aws-samples/sample-drawio-mcp
+repo_name: sampel-drawio-mcp
+
+theme:
+  name: material
+  # logo:
+  # favicon:
+  features:
+    - content.code.copy
+    - content.code.select
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo A700
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      title: On this page
+      permalink: true
+
+plugins:
+  - search
+  - awesome-nav
+  - typeset
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/git-alt
+      link: https://code.aws.dev/personal_projects/alias_v/vincilb/candidate-reusable-assets/drawio-mcp
+      name: Source Repository

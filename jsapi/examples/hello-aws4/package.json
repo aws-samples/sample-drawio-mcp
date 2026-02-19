@@ -1,0 +1,13 @@
+{
+  "name": "hello-aws4",
+  "version": "1.0.0",
+  "description": "Example: Create an AWS architecture diagram with DrawioAPI",
+  "type": "module",
+  "main": "hello-aws4.js",
+  "scripts": {
+    "start": "node hello-aws4.js"
+  },
+  "dependencies": {
+    "drawio-jsapi": "file:../.."
+  }
+}

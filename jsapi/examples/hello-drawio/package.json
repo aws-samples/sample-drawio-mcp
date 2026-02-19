@@ -1,0 +1,13 @@
+{
+  "name": "hello-drawio",
+  "version": "1.0.0",
+  "description": "Example: Create a simple flowchart diagram with DrawioAPI",
+  "type": "module",
+  "main": "hello-drawio.js",
+  "scripts": {
+    "start": "node hello-drawio.js"
+  },
+  "dependencies": {
+    "drawio-jsapi": "file:../.."
+  }
+}

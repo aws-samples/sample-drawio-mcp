@@ -1,0 +1,322 @@
+{
+  "displayName": "Kubernetes Icons",
+  "description": "Kubernetes architecture icons for container orchestration diagrams",
+  "version": "1.0",
+  "categories": {
+    "workloads": {
+      "name": "Workloads",
+      "description": "Kubernetes workload resources",
+      "shapes": [
+        {
+          "id": "pod",
+          "name": "Pod",
+          "description": "Kubernetes Pod - smallest deployable unit",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=pod;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "deployment",
+          "name": "Deployment",
+          "description": "Kubernetes Deployment - manages ReplicaSets",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=deploy;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "replicaset",
+          "name": "ReplicaSet",
+          "description": "Kubernetes ReplicaSet - maintains pod replicas",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=rs;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "statefulset",
+          "name": "StatefulSet",
+          "description": "Kubernetes StatefulSet - manages stateful applications",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=sts;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "daemonset",
+          "name": "DaemonSet",
+          "description": "Kubernetes DaemonSet - runs pods on all nodes",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=ds;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "job",
+          "name": "Job",
+          "description": "Kubernetes Job - runs to completion",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=job;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "cronjob",
+          "name": "CronJob",
+          "description": "Kubernetes CronJob - scheduled jobs",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=cronjob;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    },
+    "networking": {
+      "name": "Networking",
+      "description": "Kubernetes networking resources",
+      "shapes": [
+        {
+          "id": "service",
+          "name": "Service",
+          "description": "Kubernetes Service - exposes pods",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=svc;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "ingress",
+          "name": "Ingress",
+          "description": "Kubernetes Ingress - HTTP routing",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=ing;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "endpoint",
+          "name": "Endpoint",
+          "description": "Kubernetes Endpoint - service endpoints",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=ep;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "networkpolicy",
+          "name": "NetworkPolicy",
+          "description": "Kubernetes NetworkPolicy - pod network rules",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=netpol;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    },
+    "storage": {
+      "name": "Storage",
+      "description": "Kubernetes storage resources",
+      "shapes": [
+        {
+          "id": "persistentvolume",
+          "name": "PersistentVolume",
+          "description": "Kubernetes PersistentVolume - cluster storage",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=pv;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "persistentvolumeclaim",
+          "name": "PersistentVolumeClaim",
+          "description": "Kubernetes PersistentVolumeClaim - storage request",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=pvc;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "storageclass",
+          "name": "StorageClass",
+          "description": "Kubernetes StorageClass - storage provisioner",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=sc;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "volume",
+          "name": "Volume",
+          "description": "Kubernetes Volume - pod storage",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=vol;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    },
+    "config": {
+      "name": "Configuration",
+      "description": "Kubernetes configuration resources",
+      "shapes": [
+        {
+          "id": "configmap",
+          "name": "ConfigMap",
+          "description": "Kubernetes ConfigMap - configuration data",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=cm;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "secret",
+          "name": "Secret",
+          "description": "Kubernetes Secret - sensitive data",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=secret;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "resourcequota",
+          "name": "ResourceQuota",
+          "description": "Kubernetes ResourceQuota - resource limits",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=quota;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "limitrange",
+          "name": "LimitRange",
+          "description": "Kubernetes LimitRange - resource constraints",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=limits;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "hpa",
+          "name": "HorizontalPodAutoscaler",
+          "description": "Kubernetes HPA - auto-scaling",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=hpa;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    },
+    "rbac": {
+      "name": "RBAC",
+      "description": "Kubernetes role-based access control",
+      "shapes": [
+        {
+          "id": "serviceaccount",
+          "name": "ServiceAccount",
+          "description": "Kubernetes ServiceAccount - pod identity",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=sa;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "role",
+          "name": "Role",
+          "description": "Kubernetes Role - namespace permissions",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=role;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "clusterrole",
+          "name": "ClusterRole",
+          "description": "Kubernetes ClusterRole - cluster-wide permissions",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_role;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "rolebinding",
+          "name": "RoleBinding",
+          "description": "Kubernetes RoleBinding - binds role to subjects",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=rb;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "clusterrolebinding",
+          "name": "ClusterRoleBinding",
+          "description": "Kubernetes ClusterRoleBinding - cluster-wide binding",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=crb;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "user",
+          "name": "User",
+          "description": "Kubernetes User - human user",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=user;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "group",
+          "name": "Group",
+          "description": "Kubernetes Group - user group",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=group;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    },
+    "cluster": {
+      "name": "Cluster",
+      "description": "Kubernetes cluster components",
+      "shapes": [
+        {
+          "id": "node",
+          "name": "Node",
+          "description": "Kubernetes Node - worker machine",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=node;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "namespace",
+          "name": "Namespace",
+          "description": "Kubernetes Namespace - virtual cluster",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=ns;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "crd",
+          "name": "CustomResourceDefinition",
+          "description": "Kubernetes CRD - custom resource",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=crd;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "psp",
+          "name": "PodSecurityPolicy",
+          "description": "Kubernetes PSP - security policy (deprecated)",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=psp;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    },
+    "control_plane": {
+      "name": "Control Plane",
+      "description": "Kubernetes control plane components",
+      "shapes": [
+        {
+          "id": "api_server",
+          "name": "API Server",
+          "description": "Kubernetes API Server - cluster gateway",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "controller_manager",
+          "name": "Controller Manager",
+          "description": "Kubernetes Controller Manager",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_m;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "cloud_controller_manager",
+          "name": "Cloud Controller Manager",
+          "description": "Kubernetes Cloud Controller Manager",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=c_c_m;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "scheduler",
+          "name": "Scheduler",
+          "description": "Kubernetes Scheduler - pod placement",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=sched;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "etcd",
+          "name": "etcd",
+          "description": "etcd - distributed key-value store",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=etcd;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "control_plane",
+          "name": "Control Plane",
+          "description": "Kubernetes Control Plane",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=control_plane;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "kubelet",
+          "name": "Kubelet",
+          "description": "Kubernetes Kubelet - node agent",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=kubelet;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "kube_proxy",
+          "name": "Kube Proxy",
+          "description": "Kubernetes Kube Proxy - network proxy",
+          "style": "aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#326CE5;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=k_proxy;",
+          "defaultSize": { "width": 50, "height": 48 }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "k8s-icons-catalog",
+  "version": "1.0.0",
+  "description": "Example: Generate a comprehensive catalog of all Kubernetes icons",
+  "type": "module",
+  "main": "k8s-icons-catalog.js",
+  "scripts": {
+    "start": "node k8s-icons-catalog.js"
+  },
+  "dependencies": {
+    "drawio-jsapi": "file:../../.."
+  }
+}

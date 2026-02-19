@@ -1,0 +1,397 @@
+{
+  "displayName": "Microsoft Azure Architecture Icons",
+  "description": "Microsoft Azure architecture icons for cloud diagrams",
+  "version": "1.0",
+  "categories": {
+    "compute": {
+      "name": "Compute",
+      "description": "Azure compute services",
+      "shapes": [
+        {
+          "id": "virtual_machine",
+          "name": "Virtual Machine",
+          "description": "Azure Virtual Machine",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VirtualMachine.svg;",
+          "defaultSize": { "width": 50, "height": 46 }
+        },
+        {
+          "id": "vm_scale_set",
+          "name": "VM Scale Set",
+          "description": "Virtual Machine Scale Set",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VMScaleSet.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "app_service",
+          "name": "App Service",
+          "description": "Azure App Service",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AppService.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "function_app",
+          "name": "Function App",
+          "description": "Azure Functions",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/FunctionApps.svg;",
+          "defaultSize": { "width": 46, "height": 40 }
+        },
+        {
+          "id": "container_instances",
+          "name": "Container Instances",
+          "description": "Azure Container Instances",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ContainerInstances.svg;",
+          "defaultSize": { "width": 50, "height": 44 }
+        },
+        {
+          "id": "kubernetes_service",
+          "name": "Kubernetes Service",
+          "description": "Azure Kubernetes Service (AKS)",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/KubernetesServices.svg;",
+          "defaultSize": { "width": 50, "height": 48 }
+        },
+        {
+          "id": "batch",
+          "name": "Batch",
+          "description": "Azure Batch",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/BatchAccounts.svg;",
+          "defaultSize": { "width": 50, "height": 42 }
+        }
+      ]
+    },
+    "storage": {
+      "name": "Storage",
+      "description": "Azure storage services",
+      "shapes": [
+        {
+          "id": "storage_account",
+          "name": "Storage Account",
+          "description": "Azure Storage Account",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/StorageAccounts.svg;",
+          "defaultSize": { "width": 47, "height": 38 }
+        },
+        {
+          "id": "blob_storage",
+          "name": "Blob Storage",
+          "description": "Azure Blob Storage",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/BlobBlock.svg;",
+          "defaultSize": { "width": 37, "height": 50 }
+        },
+        {
+          "id": "file_storage",
+          "name": "File Storage",
+          "description": "Azure Files",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureFilesService.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "queue_storage",
+          "name": "Queue Storage",
+          "description": "Azure Queue Storage",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/StorageQueue.svg;",
+          "defaultSize": { "width": 50, "height": 43 }
+        },
+        {
+          "id": "managed_disks",
+          "name": "Managed Disks",
+          "description": "Azure Managed Disks",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Disks.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "database": {
+      "name": "Database",
+      "description": "Azure database services",
+      "shapes": [
+        {
+          "id": "sql_database",
+          "name": "SQL Database",
+          "description": "Azure SQL Database",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SQLDatabase.svg;",
+          "defaultSize": { "width": 37, "height": 50 }
+        },
+        {
+          "id": "cosmos_db",
+          "name": "Cosmos DB",
+          "description": "Azure Cosmos DB",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/CosmosDB.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cache_redis",
+          "name": "Cache for Redis",
+          "description": "Azure Cache for Redis",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/CacheforRedis.svg;",
+          "defaultSize": { "width": 50, "height": 42 }
+        },
+        {
+          "id": "sql_server",
+          "name": "SQL Server",
+          "description": "Azure SQL Server",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SQLServer.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "mysql",
+          "name": "MySQL",
+          "description": "Azure Database for MySQL",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureDatabaseforMySQL.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "description": "Azure Database for PostgreSQL",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureDatabaseforPostgreSQL.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "networking": {
+      "name": "Networking",
+      "description": "Azure networking services",
+      "shapes": [
+        {
+          "id": "virtual_network",
+          "name": "Virtual Network",
+          "description": "Azure Virtual Network",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VirtualNetwork.svg;",
+          "defaultSize": { "width": 50, "height": 28 }
+        },
+        {
+          "id": "load_balancer",
+          "name": "Load Balancer",
+          "description": "Azure Load Balancer",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/LoadBalancer.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "application_gateway",
+          "name": "Application Gateway",
+          "description": "Azure Application Gateway",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ApplicationGateway.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "vpn_gateway",
+          "name": "VPN Gateway",
+          "description": "Azure VPN Gateway",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPNGateway.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cdn",
+          "name": "CDN",
+          "description": "Azure Content Delivery Network",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/CDN.svg;",
+          "defaultSize": { "width": 50, "height": 44 }
+        },
+        {
+          "id": "dns",
+          "name": "DNS",
+          "description": "Azure DNS",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/DNS.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "traffic_manager",
+          "name": "Traffic Manager",
+          "description": "Azure Traffic Manager",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/TrafficManager.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "expressroute",
+          "name": "ExpressRoute",
+          "description": "Azure ExpressRoute",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ExpressRoute.svg;",
+          "defaultSize": { "width": 50, "height": 26 }
+        }
+      ]
+    },
+    "security": {
+      "name": "Security",
+      "description": "Azure security services",
+      "shapes": [
+        {
+          "id": "key_vault",
+          "name": "Key Vault",
+          "description": "Azure Key Vault",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/KeyVault.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "active_directory",
+          "name": "Active Directory",
+          "description": "Azure Active Directory",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureActiveDirectory.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "security_center",
+          "name": "Security Center",
+          "description": "Azure Security Center",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/SecurityCenter.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "firewall",
+          "name": "Firewall",
+          "description": "Azure Firewall",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureFirewall.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "ddos_protection",
+          "name": "DDoS Protection",
+          "description": "Azure DDoS Protection",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/DDoSProtectionPlans.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "integration": {
+      "name": "Integration",
+      "description": "Azure integration services",
+      "shapes": [
+        {
+          "id": "logic_apps",
+          "name": "Logic Apps",
+          "description": "Azure Logic Apps",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/LogicApps.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "service_bus",
+          "name": "Service Bus",
+          "description": "Azure Service Bus",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ServiceBus.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "event_grid",
+          "name": "Event Grid",
+          "description": "Azure Event Grid",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/EventGrid.svg;",
+          "defaultSize": { "width": 50, "height": 39 }
+        },
+        {
+          "id": "event_hubs",
+          "name": "Event Hubs",
+          "description": "Azure Event Hubs",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/EventHubs.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "api_management",
+          "name": "API Management",
+          "description": "Azure API Management",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/APIManagement.svg;",
+          "defaultSize": { "width": 50, "height": 27 }
+        }
+      ]
+    },
+    "ai": {
+      "name": "AI + Machine Learning",
+      "description": "Azure AI and ML services",
+      "shapes": [
+        {
+          "id": "machine_learning",
+          "name": "Machine Learning",
+          "description": "Azure Machine Learning",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/MachineLearningServiceWorkspaces.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cognitive_services",
+          "name": "Cognitive Services",
+          "description": "Azure Cognitive Services",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/CognitiveServices.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "bot_services",
+          "name": "Bot Services",
+          "description": "Azure Bot Services",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/BotServices.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "azure_openai",
+          "name": "Azure OpenAI",
+          "description": "Azure OpenAI Service",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureOpenAI.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "devops": {
+      "name": "DevOps",
+      "description": "Azure DevOps services",
+      "shapes": [
+        {
+          "id": "devops",
+          "name": "Azure DevOps",
+          "description": "Azure DevOps",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/AzureDevOps.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "container_registry",
+          "name": "Container Registry",
+          "description": "Azure Container Registry",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ContainerRegistries.svg;",
+          "defaultSize": { "width": 50, "height": 44 }
+        },
+        {
+          "id": "pipelines",
+          "name": "Pipelines",
+          "description": "Azure Pipelines",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Pipelines.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "repos",
+          "name": "Repos",
+          "description": "Azure Repos",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Repos.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "general": {
+      "name": "General",
+      "description": "General Azure icons",
+      "shapes": [
+        {
+          "id": "resource_group",
+          "name": "Resource Group",
+          "description": "Azure Resource Group",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ResourceGroups.svg;",
+          "defaultSize": { "width": 50, "height": 44 }
+        },
+        {
+          "id": "subscription",
+          "name": "Subscription",
+          "description": "Azure Subscription",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Subscriptions.svg;",
+          "defaultSize": { "width": 50, "height": 35 }
+        },
+        {
+          "id": "management_group",
+          "name": "Management Group",
+          "description": "Azure Management Group",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/ManagementGroups.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "user",
+          "name": "User",
+          "description": "User icon",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/User.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    }
+  }
+}

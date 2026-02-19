@@ -1,0 +1,633 @@
+{
+  "displayName": "AWS Architecture Icons (AWS4)",
+  "description": "AWS Architecture Icons for cloud diagrams",
+  "version": "4.0",
+  "categories": {
+    "compute": {
+      "name": "Compute",
+      "description": "AWS compute services",
+      "shapes": [
+        {
+          "id": "ec2",
+          "name": "EC2",
+          "description": "Amazon Elastic Compute Cloud",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "ec2_instance",
+          "name": "EC2 Instance",
+          "description": "EC2 Instance",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;",
+          "defaultSize": { "width": 48, "height": 48 }
+        },
+        {
+          "id": "lambda",
+          "name": "Lambda",
+          "description": "AWS Lambda",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "lambda_function",
+          "name": "Lambda Function",
+          "description": "Lambda Function",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D05C17;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "ecs",
+          "name": "ECS",
+          "description": "Amazon Elastic Container Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ecs;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "eks",
+          "name": "EKS",
+          "description": "Amazon Elastic Kubernetes Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eks;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "fargate",
+          "name": "Fargate",
+          "description": "AWS Fargate",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "elastic_beanstalk",
+          "name": "Elastic Beanstalk",
+          "description": "AWS Elastic Beanstalk",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_beanstalk;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "batch",
+          "name": "Batch",
+          "description": "AWS Batch",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.batch;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "lightsail",
+          "name": "Lightsail",
+          "description": "Amazon Lightsail",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lightsail;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "storage": {
+      "name": "Storage",
+      "description": "AWS storage services",
+      "shapes": [
+        {
+          "id": "s3",
+          "name": "S3",
+          "description": "Amazon Simple Storage Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "s3_bucket",
+          "name": "S3 Bucket",
+          "description": "S3 Bucket",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "ebs",
+          "name": "EBS",
+          "description": "Amazon Elastic Block Store",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_block_store;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "efs",
+          "name": "EFS",
+          "description": "Amazon Elastic File System",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.efs;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "glacier",
+          "name": "Glacier",
+          "description": "Amazon S3 Glacier",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glacier;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "fsx",
+          "name": "FSx",
+          "description": "Amazon FSx",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fsx;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "storage_gateway",
+          "name": "Storage Gateway",
+          "description": "AWS Storage Gateway",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.storage_gateway;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "database": {
+      "name": "Database",
+      "description": "AWS database services",
+      "shapes": [
+        {
+          "id": "rds",
+          "name": "RDS",
+          "description": "Amazon Relational Database Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "dynamodb",
+          "name": "DynamoDB",
+          "description": "Amazon DynamoDB",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "dynamodb_table",
+          "name": "DynamoDB Table",
+          "description": "DynamoDB Table",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3334B9;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.table;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "aurora",
+          "name": "Aurora",
+          "description": "Amazon Aurora",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aurora;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "elasticache",
+          "name": "ElastiCache",
+          "description": "Amazon ElastiCache",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elasticache;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "redshift",
+          "name": "Redshift",
+          "description": "Amazon Redshift",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.redshift;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "neptune",
+          "name": "Neptune",
+          "description": "Amazon Neptune",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.neptune;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "documentdb",
+          "name": "DocumentDB",
+          "description": "Amazon DocumentDB",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.documentdb_with_mongodb_compatibility;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "networking": {
+      "name": "Networking & Content Delivery",
+      "description": "AWS networking and CDN services",
+      "shapes": [
+        {
+          "id": "vpc",
+          "name": "VPC",
+          "description": "Amazon Virtual Private Cloud",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vpc;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "cloudfront",
+          "name": "CloudFront",
+          "description": "Amazon CloudFront",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "route53",
+          "name": "Route 53",
+          "description": "Amazon Route 53",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "api_gateway",
+          "name": "API Gateway",
+          "description": "Amazon API Gateway",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "direct_connect",
+          "name": "Direct Connect",
+          "description": "AWS Direct Connect",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.direct_connect;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "elb",
+          "name": "Elastic Load Balancing",
+          "description": "Elastic Load Balancing",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "alb",
+          "name": "Application Load Balancer",
+          "description": "Application Load Balancer",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "nlb",
+          "name": "Network Load Balancer",
+          "description": "Network Load Balancer",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.network_load_balancer;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "nat_gateway",
+          "name": "NAT Gateway",
+          "description": "NAT Gateway",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "internet_gateway",
+          "name": "Internet Gateway",
+          "description": "Internet Gateway",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5A30B5;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "security": {
+      "name": "Security, Identity & Compliance",
+      "description": "AWS security and identity services",
+      "shapes": [
+        {
+          "id": "iam",
+          "name": "IAM",
+          "description": "AWS Identity and Access Management",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "cognito",
+          "name": "Cognito",
+          "description": "Amazon Cognito",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "secrets_manager",
+          "name": "Secrets Manager",
+          "description": "AWS Secrets Manager",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "kms",
+          "name": "KMS",
+          "description": "AWS Key Management Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.key_management_service;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "waf",
+          "name": "WAF",
+          "description": "AWS WAF",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.waf;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "shield",
+          "name": "Shield",
+          "description": "AWS Shield",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.shield;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "acm",
+          "name": "Certificate Manager",
+          "description": "AWS Certificate Manager",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.certificate_manager;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "integration": {
+      "name": "Application Integration",
+      "description": "AWS integration services",
+      "shapes": [
+        {
+          "id": "sqs",
+          "name": "SQS",
+          "description": "Amazon Simple Queue Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "sns",
+          "name": "SNS",
+          "description": "Amazon Simple Notification Service",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "step_functions",
+          "name": "Step Functions",
+          "description": "AWS Step Functions",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "eventbridge",
+          "name": "EventBridge",
+          "description": "Amazon EventBridge",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "mq",
+          "name": "Amazon MQ",
+          "description": "Amazon MQ",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mq;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "management": {
+      "name": "Management & Governance",
+      "description": "AWS management and monitoring services",
+      "shapes": [
+        {
+          "id": "cloudwatch",
+          "name": "CloudWatch",
+          "description": "Amazon CloudWatch",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudwatch;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "cloudformation",
+          "name": "CloudFormation",
+          "description": "AWS CloudFormation",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudformation;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "cloudtrail",
+          "name": "CloudTrail",
+          "description": "AWS CloudTrail",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudtrail;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "config",
+          "name": "Config",
+          "description": "AWS Config",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.config;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "systems_manager",
+          "name": "Systems Manager",
+          "description": "AWS Systems Manager",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.systems_manager;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "analytics": {
+      "name": "Analytics",
+      "description": "AWS analytics services",
+      "shapes": [
+        {
+          "id": "athena",
+          "name": "Athena",
+          "description": "Amazon Athena",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.athena;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "kinesis",
+          "name": "Kinesis",
+          "description": "Amazon Kinesis",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.kinesis;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "quicksight",
+          "name": "QuickSight",
+          "description": "Amazon QuickSight",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.quicksight;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "emr",
+          "name": "EMR",
+          "description": "Amazon EMR",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.emr;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "glue",
+          "name": "Glue",
+          "description": "AWS Glue",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "machine_learning": {
+      "name": "Machine Learning",
+      "description": "AWS ML/AI services",
+      "shapes": [
+        {
+          "id": "sagemaker",
+          "name": "SageMaker",
+          "description": "Amazon SageMaker",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sagemaker;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "bedrock",
+          "name": "Bedrock",
+          "description": "Amazon Bedrock",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "comprehend",
+          "name": "Comprehend",
+          "description": "Amazon Comprehend",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.comprehend;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "rekognition",
+          "name": "Rekognition",
+          "description": "Amazon Rekognition",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rekognition;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "lex",
+          "name": "Lex",
+          "description": "Amazon Lex",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lex;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "polly",
+          "name": "Polly",
+          "description": "Amazon Polly",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.polly;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "transcribe",
+          "name": "Transcribe",
+          "description": "Amazon Transcribe",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.transcribe;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "translate",
+          "name": "Translate",
+          "description": "Amazon Translate",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.translate;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    },
+    "groups": {
+      "name": "Groups & Containers",
+      "description": "AWS grouping shapes (VPC, Region, AZ, etc.)",
+      "shapes": [
+        {
+          "id": "aws_cloud",
+          "name": "AWS Cloud",
+          "description": "AWS Cloud container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#AAB7B8;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;",
+          "defaultSize": { "width": 400, "height": 300 }
+        },
+        {
+          "id": "region",
+          "name": "Region",
+          "description": "AWS Region container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;",
+          "defaultSize": { "width": 350, "height": 250 }
+        },
+        {
+          "id": "vpc_group",
+          "name": "VPC",
+          "description": "VPC container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;",
+          "defaultSize": { "width": 300, "height": 200 }
+        },
+        {
+          "id": "availability_zone",
+          "name": "Availability Zone",
+          "description": "Availability Zone container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;",
+          "defaultSize": { "width": 250, "height": 180 }
+        },
+        {
+          "id": "public_subnet",
+          "name": "Public Subnet",
+          "description": "Public subnet container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;strokeColor=#248814;fillColor=#E9F3E6;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;",
+          "defaultSize": { "width": 200, "height": 150 }
+        },
+        {
+          "id": "private_subnet",
+          "name": "Private Subnet",
+          "description": "Private subnet container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;",
+          "defaultSize": { "width": 200, "height": 150 }
+        },
+        {
+          "id": "security_group",
+          "name": "Security Group",
+          "description": "Security Group container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;strokeColor=#DD3522;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#DD3522;dashed=0;",
+          "defaultSize": { "width": 180, "height": 120 }
+        },
+        {
+          "id": "auto_scaling_group",
+          "name": "Auto Scaling Group",
+          "description": "Auto Scaling Group container",
+          "style": "sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_auto_scaling_group;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#D86613;dashed=1;",
+          "defaultSize": { "width": 200, "height": 150 }
+        }
+      ]
+    },
+    "general": {
+      "name": "General",
+      "description": "General AWS icons",
+      "shapes": [
+        {
+          "id": "user",
+          "name": "User",
+          "description": "User icon",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "users",
+          "name": "Users",
+          "description": "Users icon",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.users;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "client",
+          "name": "Client",
+          "description": "Client device",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "internet",
+          "name": "Internet",
+          "description": "Internet icon",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_alt2;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "mobile_client",
+          "name": "Mobile Client",
+          "description": "Mobile client device",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mobile_client;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "traditional_server",
+          "name": "Traditional Server",
+          "description": "Traditional server icon",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;",
+          "defaultSize": { "width": 78, "height": 78 }
+        },
+        {
+          "id": "corporate_data_center",
+          "name": "Corporate Data Center",
+          "description": "Corporate data center icon",
+          "style": "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.corporate_data_center;",
+          "defaultSize": { "width": 78, "height": 78 }
+        }
+      ]
+    }
+  }
+}

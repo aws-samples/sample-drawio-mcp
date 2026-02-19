@@ -1,0 +1,13 @@
+{
+  "name": "aws-icons-catalog",
+  "version": "1.0.0",
+  "description": "Example: Generate a comprehensive catalog of all AWS4 icons",
+  "type": "module",
+  "main": "aws-icons-catalog.js",
+  "scripts": {
+    "start": "node aws-icons-catalog.js"
+  },
+  "dependencies": {
+    "drawio-jsapi": "file:../../.."
+  }
+}

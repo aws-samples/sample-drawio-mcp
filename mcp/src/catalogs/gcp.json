@@ -1,0 +1,451 @@
+{
+  "displayName": "Google Cloud Platform Icons",
+  "description": "Google Cloud Platform architecture icons for cloud diagrams",
+  "version": "1.0",
+  "categories": {
+    "compute": {
+      "name": "Compute",
+      "description": "GCP compute services",
+      "shapes": [
+        {
+          "id": "compute_engine",
+          "name": "Compute Engine",
+          "description": "Google Compute Engine",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/compute_engine.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "app_engine",
+          "name": "App Engine",
+          "description": "Google App Engine",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/app_engine.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_functions",
+          "name": "Cloud Functions",
+          "description": "Google Cloud Functions",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_functions.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_run",
+          "name": "Cloud Run",
+          "description": "Google Cloud Run",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_run.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "kubernetes_engine",
+          "name": "Kubernetes Engine",
+          "description": "Google Kubernetes Engine (GKE)",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/kubernetes_engine.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "storage": {
+      "name": "Storage",
+      "description": "GCP storage services",
+      "shapes": [
+        {
+          "id": "cloud_storage",
+          "name": "Cloud Storage",
+          "description": "Google Cloud Storage",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_storage.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "persistent_disk",
+          "name": "Persistent Disk",
+          "description": "Persistent Disk",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/persistent_disk.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "filestore",
+          "name": "Filestore",
+          "description": "Google Cloud Filestore",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/filestore.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "database": {
+      "name": "Database",
+      "description": "GCP database services",
+      "shapes": [
+        {
+          "id": "cloud_sql",
+          "name": "Cloud SQL",
+          "description": "Google Cloud SQL",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_sql.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_spanner",
+          "name": "Cloud Spanner",
+          "description": "Google Cloud Spanner",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_spanner.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "bigtable",
+          "name": "Bigtable",
+          "description": "Google Cloud Bigtable",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/bigtable.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "firestore",
+          "name": "Firestore",
+          "description": "Google Cloud Firestore",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/firestore.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "memorystore",
+          "name": "Memorystore",
+          "description": "Google Cloud Memorystore",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/memorystore.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "datastore",
+          "name": "Datastore",
+          "description": "Google Cloud Datastore",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/datastore.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "networking": {
+      "name": "Networking",
+      "description": "GCP networking services",
+      "shapes": [
+        {
+          "id": "vpc_network",
+          "name": "VPC Network",
+          "description": "Virtual Private Cloud Network",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/vpc_network.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_load_balancing",
+          "name": "Cloud Load Balancing",
+          "description": "Google Cloud Load Balancing",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_load_balancing.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_cdn",
+          "name": "Cloud CDN",
+          "description": "Google Cloud CDN",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_cdn.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_dns",
+          "name": "Cloud DNS",
+          "description": "Google Cloud DNS",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_dns.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_nat",
+          "name": "Cloud NAT",
+          "description": "Google Cloud NAT",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_nat.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_vpn",
+          "name": "Cloud VPN",
+          "description": "Google Cloud VPN",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_vpn.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_interconnect",
+          "name": "Cloud Interconnect",
+          "description": "Google Cloud Interconnect",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_interconnect.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "security": {
+      "name": "Security",
+      "description": "GCP security services",
+      "shapes": [
+        {
+          "id": "iam",
+          "name": "IAM",
+          "description": "Identity and Access Management",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/iam.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_kms",
+          "name": "Cloud KMS",
+          "description": "Google Cloud Key Management Service",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_kms.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "secret_manager",
+          "name": "Secret Manager",
+          "description": "Google Secret Manager",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/secret_manager.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_armor",
+          "name": "Cloud Armor",
+          "description": "Google Cloud Armor",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_armor.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "security_command_center",
+          "name": "Security Command Center",
+          "description": "Security Command Center",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/security_command_center.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "messaging": {
+      "name": "Messaging",
+      "description": "GCP messaging services",
+      "shapes": [
+        {
+          "id": "pub_sub",
+          "name": "Pub/Sub",
+          "description": "Google Cloud Pub/Sub",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/pubsub.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_tasks",
+          "name": "Cloud Tasks",
+          "description": "Google Cloud Tasks",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_tasks.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_scheduler",
+          "name": "Cloud Scheduler",
+          "description": "Google Cloud Scheduler",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_scheduler.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "analytics": {
+      "name": "Analytics",
+      "description": "GCP analytics services",
+      "shapes": [
+        {
+          "id": "bigquery",
+          "name": "BigQuery",
+          "description": "Google BigQuery",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/bigquery.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "dataflow",
+          "name": "Dataflow",
+          "description": "Google Cloud Dataflow",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/dataflow.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "dataproc",
+          "name": "Dataproc",
+          "description": "Google Cloud Dataproc",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/dataproc.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "data_catalog",
+          "name": "Data Catalog",
+          "description": "Google Cloud Data Catalog",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/data_catalog.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "looker",
+          "name": "Looker",
+          "description": "Looker",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/looker.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "ai": {
+      "name": "AI & Machine Learning",
+      "description": "GCP AI and ML services",
+      "shapes": [
+        {
+          "id": "vertex_ai",
+          "name": "Vertex AI",
+          "description": "Google Vertex AI",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/vertex_ai.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "ai_platform",
+          "name": "AI Platform",
+          "description": "Google AI Platform",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/ai_platform.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "automl",
+          "name": "AutoML",
+          "description": "Google AutoML",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/automl.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "natural_language_api",
+          "name": "Natural Language API",
+          "description": "Cloud Natural Language API",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/natural_language_api.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "vision_api",
+          "name": "Vision API",
+          "description": "Cloud Vision API",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/vision_api.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "speech_to_text",
+          "name": "Speech-to-Text",
+          "description": "Cloud Speech-to-Text",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/speech_to_text.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "text_to_speech",
+          "name": "Text-to-Speech",
+          "description": "Cloud Text-to-Speech",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/text_to_speech.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "translation_api",
+          "name": "Translation API",
+          "description": "Cloud Translation API",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/translation_api.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "devops": {
+      "name": "DevOps",
+      "description": "GCP DevOps services",
+      "shapes": [
+        {
+          "id": "cloud_build",
+          "name": "Cloud Build",
+          "description": "Google Cloud Build",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_build.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "artifact_registry",
+          "name": "Artifact Registry",
+          "description": "Google Artifact Registry",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/artifact_registry.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "container_registry",
+          "name": "Container Registry",
+          "description": "Google Container Registry",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/container_registry.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "source_repositories",
+          "name": "Source Repositories",
+          "description": "Google Cloud Source Repositories",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/source_repositories.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "management": {
+      "name": "Management",
+      "description": "GCP management services",
+      "shapes": [
+        {
+          "id": "cloud_logging",
+          "name": "Cloud Logging",
+          "description": "Google Cloud Logging",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_logging.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_monitoring",
+          "name": "Cloud Monitoring",
+          "description": "Google Cloud Monitoring",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_monitoring.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "cloud_console",
+          "name": "Cloud Console",
+          "description": "Google Cloud Console",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/cloud_console.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "deployment_manager",
+          "name": "Deployment Manager",
+          "description": "Google Cloud Deployment Manager",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/deployment_manager.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    },
+    "general": {
+      "name": "General",
+      "description": "General GCP icons",
+      "shapes": [
+        {
+          "id": "project",
+          "name": "Project",
+          "description": "GCP Project",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/project.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "folder",
+          "name": "Folder",
+          "description": "GCP Folder",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/folder.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "organization",
+          "name": "Organization",
+          "description": "GCP Organization",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/organization.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        },
+        {
+          "id": "user",
+          "name": "User",
+          "description": "User icon",
+          "style": "sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/gcp/user.svg;",
+          "defaultSize": { "width": 50, "height": 50 }
+        }
+      ]
+    }
+  }
+}

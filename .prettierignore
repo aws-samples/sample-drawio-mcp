@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+*.min.js
+
+# Vendor
+mcp/vendor/
+
+# Generated files
+*.d.ts
+
+# Package files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Docs build
+docs/site/
+public/
+
+# Python virtual environment
+.venv/

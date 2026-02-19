@@ -1,0 +1,30 @@
+.DS_Store
+build/
+dist/
+node_modules/
+.vscode/*
+!.vscode/settings.example.json
+
+.temp/
+.delete/
+output/
+.scratch/
+.mcp.json
+.npmrc
+.kiro/*
+!.kiro/steering/
+
+.ash/
+.workflow-state
+.kiro
+
+# DevSecOps - Generated files (safe to ignore)
+ferret-sast-report.json
+.ash/
+.eslintcache
+
+# DevSecOps - Tool cache directories
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
