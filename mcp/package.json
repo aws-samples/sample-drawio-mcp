@@ -1,6 +1,6 @@
 {
   "name": "@drawio-mcp/server",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "description": "MCP server for draw.io diagrams",
   "type": "module",
   "main": "src/index.js",
