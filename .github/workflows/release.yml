@@ -37,6 +37,7 @@ jobs:
           cp ../jsapi/package.json vendor/drawio-jsapi/package.json
           npm ci
           rm -rf node_modules/drawio-jsapi
+          mkdir -p node_modules
           cp -r vendor/drawio-jsapi node_modules/drawio-jsapi
           npm pack
           cp drawio-mcp-server-*.tgz drawio-mcp-server-latest.tgz
