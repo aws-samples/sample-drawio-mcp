@@ -2,6 +2,30 @@
 
 MCP (Model Context Protocol) server for creating and manipulating draw.io diagrams with AI assistants like Claude.
 
+## Install via npx
+
+Run the MCP server directly:
+
+```bash
+npx -y https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz
+```
+
+Or configure your MCP client (Claude Desktop, Claude Code, Kiro):
+
+```json
+{
+  "mcpServers": {
+    "drawio": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz"
+      ]
+    }
+  }
+}
+```
+
 ## Quick Start
 
 ```bash

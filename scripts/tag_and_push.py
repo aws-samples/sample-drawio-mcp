@@ -55,7 +55,8 @@ def main():
 
         subprocess.run(["git", "push", "origin", tag], check=True)  # nosec B603 B607
         print(f"✓ Pushed tag: {tag}")
-        print(f"\nGitLab CI will now publish mcp@{version} to the package registry")
+        print(f"\nGitHub Actions will now build and release mcp@{version}")
+        print(f"  → https://github.com/aws-samples/sample-drawio-mcp/releases/tag/{tag}")
     except subprocess.CalledProcessError as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
