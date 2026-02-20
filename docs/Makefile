@@ -5,7 +5,7 @@
 
 PORT?=8000
 
-.PHONY: help install docs build clean rebuild dev validate serve-strict
+.PHONY: help install docs build clean rebuild dev validate serve-strict ghpages
 
 # Default target
 help:
@@ -19,6 +19,7 @@ help:
 	@echo "  make rebuild       Clean and rebuild the site"
 	@echo "  make validate      Build with strict mode and check for warnings"
 	@echo "  make serve-strict  Serve with strict mode (fails on warnings)"
+	@echo "  make ghpages       Deploy documentation to GitHub Pages"
 	@echo ""
 
 # Install dependencies
@@ -51,3 +52,7 @@ validate: build
 # Serve with strict mode (fails on warnings)
 serve-strict:
 	python3 -m mkdocs serve --strict
+
+# Deploy to GitHub Pages
+ghpages:
+	python3 -m mkdocs gh-deploy --force

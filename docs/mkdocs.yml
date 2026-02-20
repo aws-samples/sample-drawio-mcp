@@ -1,12 +1,12 @@
 site_name: Draw.io MCP Server
 site_description: Draw.io MCP/JSPAI Documentation
 site_dir: site
-site_url: https://github.com/aws-samples/sample-drawio-mcp
+site_url: https://aws-samples.github.io/sample-drawio-mcp/
 docs_dir: ./docs
 dev_addr: 127.0.0.1:8000
 
 repo_url: https://github.com/aws-samples/sample-drawio-mcp
-repo_name: sampel-drawio-mcp
+repo_name: sample-drawio-mcp
 
 theme:
   name: material
@@ -74,6 +74,6 @@ plugins:
 
 extra:
   social:
-    - icon: fontawesome/brands/git-alt
-      link: https://code.aws.dev/personal_projects/alias_v/vincilb/candidate-reusable-assets/drawio-mcp
+    - icon: fontawesome/brands/github
+      link: https://github.com/aws-samples/sample-drawio-mcp
       name: Source Repository
