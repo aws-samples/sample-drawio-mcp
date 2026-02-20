@@ -1,7 +1,8 @@
 # 🎨 Draw.io MCP Server
 
 > [!WARNING]
-> **_Pre-Release Alpha Software_**: This software is in pre-release alpha. Please open issues at [github.com/aws-samples/sample-drawio-mcp/issues](https://github.com/aws-samples/sample-drawio-mcp/issues) — we welcome bug reports and accept PRs.
+> **_Pre-Release Alpha Software_**: This software is in an early stage of development and may contain defects.
+> Please open issues at [github.com/aws-samples/sample-drawio-mcp/issues](https://github.com/aws-samples/sample-drawio-mcp/issues) — we welcome bug reports and accept PRs.
 
 Create, read, and update draw.io diagrams programmatically using AI assistants.
 
