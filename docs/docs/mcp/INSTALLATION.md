@@ -5,8 +5,10 @@
 Run the MCP server directly without installing:
 
 ```bash
-npx -y https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz
+npx -y https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz --no-cache
 ```
+
+The `--no-cache` flag ensures you always get the latest version without using a cached copy.
 
 ## MCP Client Configuration
 
@@ -24,8 +26,10 @@ Add to your `claude_desktop_config.json`:
       "command": "npx",
       "args": [
         "-y",
-        "https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz"
-      ]
+        "https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz",
+        "--no-cache"
+      ],
+      "type": "stdio"
     }
   }
 }
@@ -40,8 +44,10 @@ Add to your `claude_desktop_config.json`:
       "command": "npx",
       "args": [
         "-y",
-        "https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz"
-      ]
+        "https://github.com/aws-samples/sample-drawio-mcp/releases/latest/download/drawio-mcp-server-latest.tgz",
+        "--no-cache"
+      ],
+      "type": "stdio"
     }
   }
 }
@@ -52,7 +58,7 @@ Add to your `claude_desktop_config.json`:
 Replace `latest/download` with the version tag and use the versioned filename:
 
 ```bash
-npx -y https://github.com/aws-samples/sample-drawio-mcp/releases/download/v0.0.7/drawio-mcp-server-0.0.7.tgz
+npx -y https://github.com/aws-samples/sample-drawio-mcp/releases/download/v0.0.1/drawio-mcp-server-0.0.1.tgz
 ```
 
 ## From Source (Development)
