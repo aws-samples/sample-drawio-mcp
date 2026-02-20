@@ -1,5 +1,5 @@
 site_name: Draw.io MCP Server
-site_description: Draw.io MCP/JSPAI Documentation
+site_description: Draw.io MCP/JSAPI Documentation
 site_dir: site
 site_url: https://aws-samples.github.io/sample-drawio-mcp/
 docs_dir: ./docs
