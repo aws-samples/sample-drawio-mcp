@@ -1,7 +1,3 @@
----
-title: Overview
----
-
 # 🎨 Draw.io MCP Server
 
 !!! warning "Pre-Release Alpha Software"
