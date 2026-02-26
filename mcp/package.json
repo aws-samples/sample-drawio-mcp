@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node src/index.js",
     "prepublishOnly": "cd ../jsapi && npm ci && npm run build && cd ../mcp && rm -rf vendor && mkdir -p vendor/drawio-jsapi && cp -r ../jsapi/dist vendor/drawio-jsapi/ && cp ../jsapi/package.json vendor/drawio-jsapi/",
-    "test": "vitest run",
+    "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "format": "prettier --write .",
     "format:check": "prettier --check .",

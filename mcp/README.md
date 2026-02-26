@@ -142,15 +142,6 @@ Add to your Claude Code MCP settings (`.claude/settings.json` or via Claude Code
 | `batch_update_cells`    | Update multiple cells in one operation    |
 | `batch_remove_cells`    | Remove multiple cells in one operation    |
 
-### Layout & Alignment
-
-| Tool               | Description                                               |
-| ------------------ | --------------------------------------------------------- |
-| `align_cells`      | Align cells (left, center, right, top, middle, bottom)    |
-| `distribute_cells` | Distribute cells evenly (horizontal/vertical)             |
-| `snap_to_grid`     | Snap cell positions to a grid                             |
-| `auto_layout`      | Apply automatic layout (horizontal, vertical, tree, grid) |
-
 ### Connection Tools
 
 | Tool                  | Description                                 |
@@ -330,7 +321,6 @@ mcp/
 │   │   ├── libraryTools.js   # Shape library tools
 │   │   ├── groupTools.js     # Grouping and container tools
 │   │   ├── batchTools.js     # Batch operation tools
-│   │   ├── layoutTools.js    # Layout and alignment tools
 │   │   ├── connectionTools.js # Connection enhancement tools
 │   │   ├── validationTools.js # Diagram validation tools
 │   │   ├── metadataTools.js  # Cell metadata tools

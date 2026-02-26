@@ -14,7 +14,6 @@ import { registerCellTools } from "./tools/cellTools.js";
 import { registerLibraryTools } from "./tools/libraryTools.js";
 import { registerGroupTools } from "./tools/groupTools.js";
 import { registerBatchTools } from "./tools/batchTools.js";
-import { registerLayoutTools } from "./tools/layoutTools.js";
 import { registerConnectionTools } from "./tools/connectionTools.js";
 import { registerValidationTools } from "./tools/validationTools.js";
 import { registerMetadataTools } from "./tools/metadataTools.js";
@@ -44,7 +43,6 @@ export function createServer() {
   registerLibraryTools(server, engine);
   registerGroupTools(server, engine);
   registerBatchTools(server, engine);
-  registerLayoutTools(server, engine);
   registerConnectionTools(server, engine);
   registerValidationTools(server, engine);
   registerMetadataTools(server, engine);
