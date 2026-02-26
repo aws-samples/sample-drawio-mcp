@@ -20,9 +20,8 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
+    - navigation.indexes
     - navigation.top
-    - navigation.expand
     - search.highlight
     - search.suggest
     - toc.follow

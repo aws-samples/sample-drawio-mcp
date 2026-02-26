@@ -1,6 +1,6 @@
 {
   "name": "drawio-jsapi",
-  "version": "0.0.6",
+  "version": "0.0.2",
   "description": "TypeScript SDK for creating and manipulating draw.io diagrams",
   "type": "module",
   "main": "dist/drawio-jsapi.cjs.js",
