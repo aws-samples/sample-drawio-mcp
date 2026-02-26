@@ -20,12 +20,11 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.sections
+    - navigation.indexes
     - navigation.top
-    - navigation.expand
     - search.highlight
     - search.suggest
-    - toc.follow
+    # - toc.follow  # Disabled: causes right-side TOC to cut off bottom headings
   palette:
     - scheme: default
       primary: indigo A700
@@ -42,11 +41,11 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  # - pymdownx.superfences:
-  #     custom_fences:
-  #       - name: mermaid
-  #         class: mermaid
-  #         format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -69,8 +68,9 @@ plugins:
   - search
   - awesome-nav
   - typeset
-  - mermaid2:
-      javascript: https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
 
 extra:
   social:
