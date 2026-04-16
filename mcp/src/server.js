@@ -39,14 +39,6 @@ export function createServer() {
 
   // Register all tools
   registerDiagramTools(server, engine);
-  registerCellTools(server, engine);
-  registerLibraryTools(server, engine);
-  registerGroupTools(server, engine);
-  registerBatchTools(server, engine);
-  registerConnectionTools(server, engine);
-  registerValidationTools(server, engine);
-  registerMetadataTools(server, engine);
-  registerExportTools(server, engine);
 
   logger.info("MCP server created", {
     name: "drawio-mcp",
